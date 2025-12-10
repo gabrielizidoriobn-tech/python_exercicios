@@ -1,0 +1,5 @@
+a = float(input('digite um numero, e eu mostrarei seu antecessor e seu secessor'))
+#print('esse é o seu antecessor {}'.format(a-1), end=' ')
+#print('e esse é o seu sucessor {}'.format(a+1))
+print(f'seu sucessor é {a+1:.2f}')
+print(f'seu antecessor é {a-1:.2f}')

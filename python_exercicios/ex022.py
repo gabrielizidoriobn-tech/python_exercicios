@@ -1,0 +1,6 @@
+nome = str(input('digite seu nome'))
+print('agora eu mostrarei seu nome em')
+print(f'MAIUSCULO {nome.upper()}\nminusculo {nome.lower()}')
+nome_a = nome.replace(' ','')
+nome_b = nome.split()
+print(f'tem: {len(nome_a)} letras no total\ntem: {len(nome_b[0])} letras no primeiro nome')
